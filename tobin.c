@@ -1,7 +1,7 @@
 #include "convertitore.h"
 int resti=0;
 int numeri=0;
-int contatore=1;
+int contatore=1;               //diamo vita al contatore
 int resto=0;
 int tobin(int numerodec)
 {
