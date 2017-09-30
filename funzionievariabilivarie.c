@@ -2,6 +2,7 @@
 int numeroin;
 int numeroout;
 int decobin;
+int numerocorrente;
 void conversione()
 {
     if(decobin==10)
@@ -9,6 +10,7 @@ void conversione()
         printf("Inserisci un numero decimale da convertire in binario\n");
         scanf("%d",&numeroin);
         numeroout=tobin(numeroin);
+        printf("IL TUO NUMERO CONVERTITO IN BINARIO E'%d\n\n",numeroout);
     }
     else
     {
