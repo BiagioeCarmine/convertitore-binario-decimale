@@ -1,16 +1,16 @@
 #include "tobin.h"
 resti=0;
 numeri=0;
-int contatore;
+int numerodarimuovere;
 int tobin(int numerodec)
 {
-    numerocorrente=numerodec;
+    numerocorrente=numerodec;	
     while(numerocorrente>0)
     {
         if(numerocorrente%2==0)
         {
             resti=resti+10;
-            contatore=1;
+            numerodarimuovere=1;
         }
         else
         {
