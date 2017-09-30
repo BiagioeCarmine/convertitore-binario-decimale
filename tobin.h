@@ -3,5 +3,4 @@
 #include "convertitore.h"
 int resti;
 bool numeri;
-extern int numerodarimuovere;
 #endif
