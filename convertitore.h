@@ -1,3 +1,3 @@
 #include <stdio.h>
-int numerodec;
-int numerobin;
+extern int numerodec;
+extern int numerobin;
