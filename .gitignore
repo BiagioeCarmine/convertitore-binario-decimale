@@ -2,3 +2,4 @@
 *.win
 *.o
 *.dev
+*.layout
