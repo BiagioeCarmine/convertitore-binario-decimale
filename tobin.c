@@ -1,7 +1,8 @@
 #include "tobin.h"
 resti=0;
 numeri=0;
-int numerodarimuovere,tobin(int numerodec)
+int numerodarimuovere;
+int tobin(int numerodec)
 {
     numerocorrente=numerodec;
     while(numerocorrente>0)
