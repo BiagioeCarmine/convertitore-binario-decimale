@@ -9,7 +9,7 @@ int tobin(int numerodec)
         if(numerocorrente%2==0)
         {
             resti=resti+10;
-            numerodarimouvere=1;
+            numerodarimuovere=1;
         }
         else
         {
