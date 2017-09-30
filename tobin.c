@@ -10,12 +10,12 @@ int tobin(int numerodec)
     {
         if(numerocorrente%2==0)
         {
-        	resto=0
+        	resto=0;
             resti=resti+resto*contatore;
         }
         else
         {
-        	resto=1
+        	resto=1;
             resti=resti+resto*contatore;
             resti++;
         }
