@@ -2,13 +2,15 @@
 
 int main()
 {
-    printf("Decimale>Binario(scrivi 10) o Binario>Decimale(scrivi 2)?\n");
+    printf("Vuoi che  il programma converta da DECIMALE A BINARIO(SCRIVI 10)\n\t\t\toppure da BINARIO A DECIMALE(SCRIVI 2)?\n");
     scanf("%d",&decobin);
     while(decobin!=2 && decobin!=10)
     {
-        printf("Devi scrivere per forza un numero tra 10 e 2\n");
-        printf("Decimale>Binario(scrivi 10) o Binario>Decimale(scrivi 2)?\n");        
+        printf("DEVI SCRIVERE PER FORZA UN NUMERO CHE DEVE ESSERE 10 O 2 per dire cosa vuoi che il programma ");
+        printf("FACCIA, \nDOPO SCEGLIERAI UN NUMERO DA CONVERTIRE\n");
+        printf("VUOI CHE  IL PROGRAMMA CONVERTA DA DECIMALE A BINARIO(SCRIVI 10)\n\t\t\tOPPURE DA BINARIO A DECIMALE(SCRIVI 2)?\n");        
         scanf("%d",&decobin);        
     }
-    printf("%d",decobin);
+    conversione();
+    printf("Prova: hai inserito->%d\n prima e poi->%d",decobin,numeroin);
 }
