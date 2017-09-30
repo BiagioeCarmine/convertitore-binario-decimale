@@ -10,5 +10,5 @@ int main()
         printf("Decimale>Binario(scrivi 10) o Binario>Decimale(scrivi 2)?\n");        
         scanf("%d",&decobin);        
     }
-    
+    printf("%d",decobin);
 }
