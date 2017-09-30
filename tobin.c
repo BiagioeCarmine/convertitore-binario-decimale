@@ -17,7 +17,6 @@ int tobin(int numerodec)
         {
         	resto=1;
             resti=resti+resto*contatore;
-            resti++;
         }
         numerocorrente=numerocorrente/2;
         contatore=contatore*10;
