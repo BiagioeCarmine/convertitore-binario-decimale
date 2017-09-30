@@ -13,4 +13,5 @@ int main()
     };
     conversione();  // definita in funzionievariabilivarie.c
     printf("Prova: hai inserito->%d\n prima e poi->%d",decobin,numeroin);
+    return 0;
 }
