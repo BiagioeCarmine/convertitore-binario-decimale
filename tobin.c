@@ -1,5 +1,6 @@
 #include "tobin.h"
-resti=1;
+resti=0;
+numeri=0;
 int tobin(int numerodec)
 {
     numerocorrente=numerodec;
@@ -7,11 +8,12 @@ int tobin(int numerodec)
     {
         if(numerocorrente%2==0)
         {
-            resti=resti*10;
+            resti=resti+10;
+            numerodarimouvere=1;
         }
         else
         {
-            resti=resti*10;
+            resti=resti+10;
             resti++;
         }
         numerocorrente=numerocorrente/2;
