@@ -2,5 +2,5 @@
 #define TOBIN_H
 #include "convertitore.h"
 int resti;
-bool numeri;
+int numeri;
 #endif
