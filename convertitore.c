@@ -4,7 +4,7 @@ int main()
 {
     printf("Vuoi che  il programma converta da DECIMALE A BINARIO(SCRIVI 10)\n\t\t\toppure da BINARIO A DECIMALE(SCRIVI 2)?\n");
     scanf("%d",&decobin);
-    while(decobin!=2 && decobin!=10) // Tutto in maiuscolo perché il programma "si arrabia" per l'incompetenza dell'utente
+    while(decobin!=2 && decobin!=10) // Tutto in maiuscolo perché il programma "si arrabbia" per l'incompetenza dell'utente
     {
         printf("DEVI SCRIVERE PER FORZA UN NUMERO CHE DEVE ESSERE 10 O 2 per dire cosa vuoi che il programma ");
         printf("FACCIA, \nDOPO SCEGLIERAI UN NUMERO DA CONVERTIRE\n");
