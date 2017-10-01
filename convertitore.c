@@ -1,5 +1,11 @@
 #include "convertitore.h"
 
+int numeroin;     // decobin è il numero che viene dato dall'utente alla prima domanda (se è uguale a
+int numeroout;    // 2 significa che l'utente vuole convertire da binario a decimale, se è uguale a 10 il contrario)
+int decobin;      // numeroin è il numero che l'utente dà in input e numeroout è il numero che daremo in output
+int numerocorrente;
+char altraconv;
+bool STOP=0;  // Se è uguale a 1 vuol dire che l'utente ha detto di voler mettere un numero binario ma ci sono cifre che non ci dovrebbero essere
 int main()
 {
     printf("-----------------------------------------------------------------\nConvertitore binario-decimale decimale-binario di Biagio e Carmine\n");
@@ -16,12 +22,7 @@ int main()
     conversione();  // definita in funzionievariabilivarie.c
     return 0;
 }
-int numeroin;     // decobin è il numero che viene dato dall'utente alla prima domanda (se è uguale a
-int numeroout;    // 2 significa che l'utente vuole convertire da binario a decimale, se è uguale a 10 il contrario)
-int decobin;      // numeroin è il numero che l'utente dà in input e numeroout è il numero che daremo in output
-int numerocorrente;
-char altraconv;
-bool STOP=0;  // Se è uguale a 1 vuol dire che l'utente ha detto di voler mettere un numero binario ma ci sono cifre che non ci dovrebbero essere
+
 void conversione()
 {
     if(decobin==10)
