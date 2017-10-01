@@ -10,4 +10,5 @@ void conversione();   // conversione() dovrebbe essere l'unica funzione da chiam
 int tobin(int numerodec);       // tobin converte in binario il numero dato in input, definita in tobin.c
 int todec(int numerobin);       // todec fa il contrario , definita in todec.c
 extern int numerocorrente;      // Il numero che verrà manipolato durante l'esecuzione del programma
+extern bool STOP;               // Se è uguale a 1 vuol dire che l'utente ha detto di voler mettere un numero binario ma ci sono cifre che non ci dovrebbero essere
 #endif

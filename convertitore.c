@@ -10,8 +10,8 @@ int main()
     {
         printf("DEVI SCRIVERE PER FORZA UN NUMERO CHE DEVE ESSERE 10 O 2 per dire cosa vuoi che il programma ");
         printf("FACCIA, \nDOPO SCEGLIERAI UN NUMERO DA CONVERTIRE\n");
-        printf("VUOI CHE  IL PROGRAMMA CONVERTA DA DECIMALE A BINARIO(SCRIVI 10)\n\t\t\tOPPURE DA BINARIO A DECIMALE(SCRIVI 2)?\n(2 o 10 SOLO):");        
-        scanf("%d",&decobin);        
+        printf("VUOI CHE  IL PROGRAMMA CONVERTA DA DECIMALE A BINARIO(SCRIVI 10)\n\t\t\tOPPURE DA BINARIO A DECIMALE(SCRIVI 2)?\n(2 o 10 SOLO):");
+        scanf("%d",&decobin);
     };
     conversione();  // definita in funzionievariabilivarie.c
     return 0;
